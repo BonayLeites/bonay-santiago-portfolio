@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "title": "Bonay Santiago — Ingeniero de Software",
+    "description": "Ingeniero de software especializado en soluciones empresariales con IA, desarrollo full-stack e ingeniería de datos."
+  },
+  "nav": {
+    "about": "Sobre mí",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "name": "Bonay Santiago",
+    "role": "Ingeniero de Software",
+    "tagline": "Construyendo sistemas inteligentes en la intersección de IA y software empresarial.",
+    "cta": "Ver mi trabajo"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "description": "Soy un ingeniero de software apasionado por construir soluciones impulsadas por IA para problemas empresariales complejos. Con experiencia en desarrollo full-stack, ingeniería de datos y machine learning, me especializo en crear sistemas que potencian la toma de decisiones humana.",
+    "focus": "Actualmente enfocado en arquitecturas de IA agéntica, orquestación de LLMs y automatización de gestión del rendimiento corporativo."
+  },
+  "experience": {
+    "title": "Experiencia",
+    "subtitle": "Trayectoria profesional",
+    "present": "Presente",
+    "technologies": "Tecnologías",
+    "education": "Educación",
+    "certifications": "Certificaciones"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "subtitle": "Trabajo seleccionado",
+    "featured": "Destacado",
+    "liveDemo": "Demo en vivo disponible",
+    "requestAccess": "Solicitar acceso",
+    "viewCode": "Ver código",
+    "cpm": {
+      "title": "CPM Agent Accelerator",
+      "description": "Plataforma multi-agente de IA para gestión del rendimiento corporativo. Revisión de consolidación automatizada y análisis de rendimiento con orquestación de workflows en tiempo real, ejecución DAG y generación de narrativas ejecutivas.",
+      "highlights": "9 agentes IA especializados · Streaming SSE en tiempo real · 3 idiomas (EN/ES/JA)"
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "Conectemos",
+    "description": "¿Interesado en colaborar o quieres acceso a una demo en vivo? Escríbeme por cualquiera de estos canales.",
+    "email": "Email",
+    "demoAccess": "Para acceso a demos de mis proyectos, menciona el nombre del proyecto en tu mensaje."
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "built": "Construido con Next.js y Tailwind CSS"
+  }
+}

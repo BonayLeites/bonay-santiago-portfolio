@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "title": "Bonay Santiago — Software Engineer",
+    "description": "Software engineer specialized in AI-powered enterprise solutions, full-stack development and data engineering."
+  },
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "Bonay Santiago",
+    "role": "Software Engineer",
+    "tagline": "Building intelligent systems at the intersection of AI and enterprise software.",
+    "cta": "View my work"
+  },
+  "about": {
+    "title": "About",
+    "description": "I'm a software engineer passionate about building AI-powered solutions for complex business problems. With experience spanning full-stack development, data engineering, and machine learning, I specialize in creating systems that augment human decision-making.",
+    "focus": "Currently focused on agentic AI architectures, LLM orchestration, and corporate performance management automation."
+  },
+  "experience": {
+    "title": "Experience",
+    "subtitle": "Professional journey",
+    "present": "Present",
+    "technologies": "Technologies",
+    "education": "Education",
+    "certifications": "Certifications"
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Selected work",
+    "featured": "Featured",
+    "liveDemo": "Live Demo Available",
+    "requestAccess": "Request Access",
+    "viewCode": "View Source",
+    "cpm": {
+      "title": "CPM Agent Accelerator",
+      "description": "Multi-agent AI platform for Corporate Performance Management. Automated consolidation review and performance analysis with real-time workflow orchestration, DAG execution, and executive narrative generation.",
+      "highlights": "9 specialized AI agents · Real-time SSE streaming · 3 languages (EN/ES/JA)"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Let's connect",
+    "description": "Interested in collaboration or want access to a live demo? Reach out through any of these channels.",
+    "email": "Email",
+    "demoAccess": "For demo access to my projects, please mention the project name in your message."
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "built": "Built with Next.js & Tailwind CSS"
+  }
+}

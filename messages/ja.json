@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "title": "Bonay Santiago — ソフトウェアエンジニア",
+    "description": "AI搭載のエンタープライズソリューション、フルスタック開発、データエンジニアリングを専門とするソフトウェアエンジニア。"
+  },
+  "nav": {
+    "about": "紹介",
+    "experience": "経歴",
+    "projects": "プロジェクト",
+    "contact": "連絡先"
+  },
+  "hero": {
+    "greeting": "こんにちは、",
+    "name": "Bonay Santiago",
+    "role": "ソフトウェアエンジニア",
+    "tagline": "AIとエンタープライズソフトウェアの交差点でインテリジェントシステムを構築。",
+    "cta": "作品を見る"
+  },
+  "about": {
+    "title": "紹介",
+    "description": "複雑なビジネス課題にAI搭載ソリューションを構築することに情熱を注ぐソフトウェアエンジニアです。フルスタック開発、データエンジニアリング、機械学習の経験を活かし、人間の意思決定を強化するシステムの構築を専門としています。",
+    "focus": "現在はエージェントAIアーキテクチャ、LLMオーケストレーション、企業業績管理の自動化に注力しています。"
+  },
+  "experience": {
+    "title": "経歴",
+    "subtitle": "プロフェッショナルキャリア",
+    "present": "現在",
+    "technologies": "技術スタック",
+    "education": "学歴",
+    "certifications": "資格"
+  },
+  "projects": {
+    "title": "プロジェクト",
+    "subtitle": "主な実績",
+    "featured": "注目",
+    "liveDemo": "ライブデモあり",
+    "requestAccess": "アクセスを申請",
+    "viewCode": "ソースを見る",
+    "cpm": {
+      "title": "CPM Agent Accelerator",
+      "description": "企業業績管理のためのマルチエージェントAIプラットフォーム。リアルタイムワークフローオーケストレーション、DAG実行、エグゼクティブナラティブ生成による自動連結レビューと業績分析。",
+      "highlights": "9つの専門AIエージェント · リアルタイムSSEストリーミング · 3言語対応（EN/ES/JA）"
+    }
+  },
+  "contact": {
+    "title": "連絡先",
+    "subtitle": "つながりましょう",
+    "description": "コラボレーションやライブデモへのアクセスに興味がありますか？以下のチャネルからお問い合わせください。",
+    "email": "メール",
+    "demoAccess": "プロジェクトのデモアクセスについては、メッセージにプロジェクト名をご記載ください。"
+  },
+  "footer": {
+    "rights": "全著作権所有。",
+    "built": "Next.jsとTailwind CSSで構築"
+  }
+}
