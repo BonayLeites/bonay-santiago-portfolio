@@ -19,20 +19,22 @@ const timeline: TimelineEntry[] = [
     location: "Ourense, Spain",
     period: "2023 — Present",
     description: [
-      "Lead AI strategy and architecture for enterprise ERP system (LIBRA) serving 500+ business clients",
-      "Architected production RAG systems using LangChain, LlamaIndex, and vector databases",
-      "Designed multi-agent AI systems with LangGraph for complex enterprise workflows",
-      "Built AutoML platform integrated into ERP for sales forecasting",
-      "Deployed AI solutions on Azure ML and Oracle Cloud with CI/CD pipelines",
+      "Lead AI strategy and architecture for LIBRA ERP, serving 500+ business clients across Spain, Colombia, Ecuador, and Dominican Republic",
+      "Architected production RAG systems using LangChain, LlamaIndex, and vector databases (ChromaDB, Pinecone)",
+      "Designed multi-agent AI systems with LangGraph for complex enterprise workflows; developed medical AI chatbot with Multi-Pack RAG",
+      "Built AutoML platform integrated into ERP, reducing model development time; deployed ML predictive models for sales forecasting",
+      "Deployed AI solutions on Azure ML and Oracle Cloud; established CI/CD pipelines and MLOps practices; explored LLM fine-tuning (LoRA) with Llama, Mistral, DeepSeek",
     ],
     technologies: [
       "Python",
       "LangChain",
       "LangGraph",
+      "LlamaIndex",
       "Azure AI",
       "Oracle Cloud",
       "PyTorch",
       "Docker",
+      "Hugging Face",
     ],
   },
   {
@@ -41,9 +43,9 @@ const timeline: TimelineEntry[] = [
     location: "Ourense, Spain",
     period: "2012 — 2022",
     description: [
-      "Led ERP customization and implementation projects for international clients across 6 countries",
-      "Managed cross-functional teams of 10-15 developers",
-      "Developed deep expertise in Oracle Database and PL/SQL optimization",
+      "Led ERP customization and implementation projects for international clients across 6 countries (Spain, Mexico, France, Colombia, Ecuador, Dominican Republic)",
+      "Managed cross-functional teams of 10-15 developers across multiple time zones",
+      "Developed deep expertise in Oracle Database and PL/SQL optimization for enterprise-scale systems",
     ],
     technologies: [
       "Oracle DB",
@@ -51,6 +53,21 @@ const timeline: TimelineEntry[] = [
       "SQL",
       "ERP Systems",
       "Project Management",
+    ],
+  },
+  {
+    role: "Fullstack Developer",
+    company: "Fortek",
+    location: "Spain",
+    period: "2007",
+    description: [
+      "Web development for e-commerce platforms",
+    ],
+    technologies: [
+      "Web Development",
+      "e-Commerce",
+      "SQL",
+      "ETL",
     ],
   },
 ];
@@ -71,10 +88,14 @@ const education = [
 ];
 
 const certifications = [
+  "Claude 101 — Anthropic",
+  "Claude Code in Action — Anthropic",
   "OCI Generative AI Professional",
   "OCI AI Foundations Associate",
   "OCI Data Science Professional",
+  "OCI Digital Assistant Professional",
   "Google Data Analytics Professional",
+  "Big Data Architecture — GDOCE",
 ];
 
 export default function ExperiencePage() {

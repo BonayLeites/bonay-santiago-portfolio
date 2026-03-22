@@ -18,8 +18,8 @@
   },
   "about": {
     "title": "About",
-    "description": "I'm a software engineer passionate about building AI-powered solutions for complex business problems. With experience spanning full-stack development, data engineering, and machine learning, I specialize in creating systems that augment human decision-making.",
-    "focus": "Currently focused on agentic AI architectures, LLM orchestration, and corporate performance management automation."
+    "description": "As AI Technical Lead at EDISA, I bring 14+ years of experience in enterprise software development, with the last 3+ years leading AI/ML initiatives. My work centers on integrating AI capabilities into the Libra ERP system — from LLM-powered features and RAG pipelines to multi-agent architectures — serving businesses across Spain, Colombia, Ecuador, and the Dominican Republic.",
+    "focus": "Currently focused on production LLM systems, RAG architectures, multi-agent orchestration, and bringing cutting-edge AI into traditional enterprise systems."
   },
   "experience": {
     "title": "Experience",

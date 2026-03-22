@@ -20,6 +20,9 @@ const skills = [
   "React & TypeScript",
   "Azure AI & Oracle Cloud",
   "MLOps & CI/CD",
+  "Deep Learning & NLP",
+  "Fine-tuning & LoRA",
+  "Computer Vision",
 ];
 
 export default function HomePage() {
