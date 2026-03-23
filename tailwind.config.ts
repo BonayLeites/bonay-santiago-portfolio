@@ -53,9 +53,9 @@ const config: Config = {
         },
       },
       fontFamily: {
-        display: ['"Playfair Display"', "Georgia", "serif"],
-        body: ['"Source Sans 3"', "system-ui", "sans-serif"],
-        mono: ['"JetBrains Mono"', "monospace"],
+        display: ["var(--font-display)", "Georgia", "serif"],
+        body: ["var(--font-body)", "system-ui", "sans-serif"],
+        mono: ["var(--font-mono)", "monospace"],
       },
       letterSpacing: {
         widest: "0.2em",
