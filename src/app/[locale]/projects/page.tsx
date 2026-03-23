@@ -35,7 +35,7 @@ const projects: Project[] = [
     ],
     featured: true,
     liveDemo: true,
-    githubUrl: "https://github.com/BonayLeites/agentic_cpm",
+    githubUrl: "https://github.com/BonayLeites/agentic-cpm",
   },
 ];
 

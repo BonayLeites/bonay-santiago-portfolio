@@ -4,7 +4,7 @@ Personal portfolio and CV website for Santiago Bonay — Senior AI Software Engi
 
 ## Stack
 
-- **Next.js 14** (App Router) + TypeScript
+- **Next.js 15** (App Router) + TypeScript
 - **Tailwind CSS** — utility-first styling, editorial Japanese-inspired design
 - **next-intl** — i18n with 3 locales (EN / ES / JA)
 - **Framer Motion** — page transitions and scroll-triggered animations
@@ -30,7 +30,7 @@ npm run lint    # ESLint
 
 ## Related
 
-- [CPM Agent Accelerator](https://github.com/BonayLeites/agentic_cpm) — Multi-agent AI platform for Corporate Performance Management (featured project)
+- [CPM Agent Accelerator](https://github.com/BonayLeites/agentic-cpm) — Multi-agent AI platform for Corporate Performance Management (featured project)
 
 ## License
 
