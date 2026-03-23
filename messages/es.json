@@ -27,7 +27,25 @@
     "present": "Presente",
     "technologies": "Tecnologías",
     "education": "Educación",
-    "certifications": "Certificaciones"
+    "certifications": "Certificaciones",
+    "role1": "Ingeniero IA y Líder Técnico",
+    "location1": "Ourense, España",
+    "role1_desc1": "Liderazgo de la estrategia y arquitectura de IA para el ERP LIBRA, sirviendo a más de 500 clientes en España, Colombia, Ecuador y República Dominicana",
+    "role1_desc2": "Diseño de sistemas RAG en producción con LangChain, LlamaIndex y bases de datos vectoriales (ChromaDB, Pinecone)",
+    "role1_desc3": "Diseño de sistemas multi-agente con LangGraph para flujos empresariales complejos; desarrollo de chatbot médico con Multi-Pack RAG",
+    "role1_desc4": "Construcción de plataforma AutoML integrada en el ERP, reduciendo el tiempo de desarrollo de modelos; despliegue de modelos predictivos de ML para previsión de ventas",
+    "role1_desc5": "Despliegue de soluciones IA en Azure ML y Oracle Cloud; establecimiento de pipelines CI/CD y prácticas MLOps; exploración de fine-tuning de LLMs (LoRA) con Llama, Mistral, DeepSeek",
+    "role2": "Ingeniero Senior → Líder Técnico → Jefe de Proyecto",
+    "location2": "Ourense, España",
+    "role2_desc1": "Liderazgo de proyectos de personalización e implantación de ERP para clientes internacionales en 6 países (España, México, Francia, Colombia, Ecuador, República Dominicana)",
+    "role2_desc2": "Gestión de equipos multidisciplinares de 10-15 desarrolladores en múltiples zonas horarias",
+    "role2_desc3": "Desarrollo de experiencia profunda en Oracle Database y optimización PL/SQL para sistemas a escala empresarial",
+    "role3": "Desarrollador Fullstack",
+    "location3": "España",
+    "role3_desc1": "Desarrollo web para plataformas de comercio electrónico",
+    "degree1": "Máster en Inteligencia Artificial",
+    "degree1_extra": "+ Certificado Avanzado en Ingeniería de Datos",
+    "degree2": "Grado en Ingeniería Informática"
   },
   "projects": {
     "title": "Proyectos",
@@ -47,7 +65,20 @@
     "subtitle": "Conectemos",
     "description": "¿Interesado en colaborar o quieres acceso a una demo en vivo? Escríbeme por cualquiera de estos canales.",
     "email": "Email",
+    "emailLabel": "Correo electrónico",
     "demoAccess": "Para acceso a demos de mis proyectos, menciona el nombre del proyecto en tu mensaje."
+  },
+  "errors": {
+    "notFound": {
+      "title": "Página no encontrada",
+      "description": "La página que buscas no existe o ha sido movida.",
+      "goHome": "Ir al inicio"
+    },
+    "error": {
+      "title": "Algo salió mal",
+      "description": "Ocurrió un error inesperado. Por favor, inténtalo de nuevo.",
+      "retry": "Reintentar"
+    }
   },
   "footer": {
     "rights": "Todos los derechos reservados.",

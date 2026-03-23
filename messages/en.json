@@ -27,7 +27,25 @@
     "present": "Present",
     "technologies": "Technologies",
     "education": "Education",
-    "certifications": "Certifications"
+    "certifications": "Certifications",
+    "role1": "AI Engineer & Technical Lead",
+    "location1": "Ourense, Spain",
+    "role1_desc1": "Lead AI strategy and architecture for LIBRA ERP, serving 500+ business clients across Spain, Colombia, Ecuador, and Dominican Republic",
+    "role1_desc2": "Architected production RAG systems using LangChain, LlamaIndex, and vector databases (ChromaDB, Pinecone)",
+    "role1_desc3": "Designed multi-agent AI systems with LangGraph for complex enterprise workflows; developed medical AI chatbot with Multi-Pack RAG",
+    "role1_desc4": "Built AutoML platform integrated into ERP, reducing model development time; deployed ML predictive models for sales forecasting",
+    "role1_desc5": "Deployed AI solutions on Azure ML and Oracle Cloud; established CI/CD pipelines and MLOps practices; explored LLM fine-tuning (LoRA) with Llama, Mistral, DeepSeek",
+    "role2": "Staff Engineer → Tech Lead → Project Manager",
+    "location2": "Ourense, Spain",
+    "role2_desc1": "Led ERP customization and implementation projects for international clients across 6 countries (Spain, Mexico, France, Colombia, Ecuador, Dominican Republic)",
+    "role2_desc2": "Managed cross-functional teams of 10-15 developers across multiple time zones",
+    "role2_desc3": "Developed deep expertise in Oracle Database and PL/SQL optimization for enterprise-scale systems",
+    "role3": "Fullstack Developer",
+    "location3": "Spain",
+    "role3_desc1": "Web development for e-commerce platforms",
+    "degree1": "M.Sc. Artificial Intelligence",
+    "degree1_extra": "+ Advanced Certificate in Data Engineering",
+    "degree2": "B.Sc. Computer Science"
   },
   "projects": {
     "title": "Projects",
@@ -47,7 +65,20 @@
     "subtitle": "Let's connect",
     "description": "Interested in collaboration or want access to a live demo? Reach out through any of these channels.",
     "email": "Email",
+    "emailLabel": "Email",
     "demoAccess": "For demo access to my projects, please mention the project name in your message."
+  },
+  "errors": {
+    "notFound": {
+      "title": "Page not found",
+      "description": "The page you're looking for doesn't exist or has been moved.",
+      "goHome": "Go home"
+    },
+    "error": {
+      "title": "Something went wrong",
+      "description": "An unexpected error occurred. Please try again.",
+      "retry": "Try again"
+    }
   },
   "footer": {
     "rights": "All rights reserved.",

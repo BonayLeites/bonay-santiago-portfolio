@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const contactLinks = [
   {
-    label: "Email",
+    labelKey: "emailLabel",
     value: "bonay.santiago@gmail.com",
     href: "mailto:bonay.santiago@gmail.com",
     icon: (
@@ -99,7 +99,7 @@ export default function ContactPage() {
                   </div>
                   <div className="flex-1 min-w-0">
                     <span className="text-xs font-mono text-stone-400 tracking-wider uppercase block">
-                      {link.label}
+                      {link.labelKey ? t(link.labelKey) : link.label}
                     </span>
                     <span className="text-stone-900 font-medium group-hover:text-accent-600 transition-colors truncate block">
                       {link.value}

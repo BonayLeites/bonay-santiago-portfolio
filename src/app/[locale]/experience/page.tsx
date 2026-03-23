@@ -4,26 +4,26 @@ import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 
 type TimelineEntry = {
-  role: string;
+  roleKey: string;
   company: string;
-  location: string;
+  locationKey: string;
   period: string;
-  description: string[];
+  descKeys: string[];
   technologies: string[];
 };
 
 const timeline: TimelineEntry[] = [
   {
-    role: "AI Engineer & Technical Lead",
+    roleKey: "role1",
     company: "EDISA",
-    location: "Ourense, Spain",
-    period: "2023 — Present",
-    description: [
-      "Lead AI strategy and architecture for LIBRA ERP, serving 500+ business clients across Spain, Colombia, Ecuador, and Dominican Republic",
-      "Architected production RAG systems using LangChain, LlamaIndex, and vector databases (ChromaDB, Pinecone)",
-      "Designed multi-agent AI systems with LangGraph for complex enterprise workflows; developed medical AI chatbot with Multi-Pack RAG",
-      "Built AutoML platform integrated into ERP, reducing model development time; deployed ML predictive models for sales forecasting",
-      "Deployed AI solutions on Azure ML and Oracle Cloud; established CI/CD pipelines and MLOps practices; explored LLM fine-tuning (LoRA) with Llama, Mistral, DeepSeek",
+    locationKey: "location1",
+    period: "2023",
+    descKeys: [
+      "role1_desc1",
+      "role1_desc2",
+      "role1_desc3",
+      "role1_desc4",
+      "role1_desc5",
     ],
     technologies: [
       "Python",
@@ -38,15 +38,11 @@ const timeline: TimelineEntry[] = [
     ],
   },
   {
-    role: "Staff Engineer → Tech Lead → Project Manager",
+    roleKey: "role2",
     company: "EDISA",
-    location: "Ourense, Spain",
+    locationKey: "location2",
     period: "2012 — 2022",
-    description: [
-      "Led ERP customization and implementation projects for international clients across 6 countries (Spain, Mexico, France, Colombia, Ecuador, Dominican Republic)",
-      "Managed cross-functional teams of 10-15 developers across multiple time zones",
-      "Developed deep expertise in Oracle Database and PL/SQL optimization for enterprise-scale systems",
-    ],
+    descKeys: ["role2_desc1", "role2_desc2", "role2_desc3"],
     technologies: [
       "Oracle DB",
       "PL/SQL",
@@ -56,32 +52,32 @@ const timeline: TimelineEntry[] = [
     ],
   },
   {
-    role: "Fullstack Developer",
+    roleKey: "role3",
     company: "Fortek",
-    location: "Spain",
+    locationKey: "location3",
     period: "2007",
-    description: [
-      "Web development for e-commerce platforms",
-    ],
-    technologies: [
-      "Web Development",
-      "e-Commerce",
-      "SQL",
-      "ETL",
-    ],
+    descKeys: ["role3_desc1"],
+    technologies: ["Web Development", "e-Commerce", "SQL", "ETL"],
   },
 ];
 
-const education = [
+type EducationEntry = {
+  degreeKey: string;
+  extraKey: string;
+  school: string;
+  period: string;
+};
+
+const education: EducationEntry[] = [
   {
-    degree: "M.Sc. Artificial Intelligence",
-    extra: "+ Advanced Certificate in Data Engineering",
+    degreeKey: "degree1",
+    extraKey: "degree1_extra",
     school: "Universidad Internacional de La Rioja",
     period: "2023 — 2024",
   },
   {
-    degree: "B.Sc. Computer Science",
-    extra: "",
+    degreeKey: "degree2",
+    extraKey: "",
     school: "Universidad de Vigo",
     period: "2007 — 2011",
   },
@@ -127,64 +123,71 @@ export default function ExperiencePage() {
           <div className="absolute left-0 md:left-[140px] top-0 bottom-0 w-[1px] bg-stone-200" />
 
           <div className="space-y-16">
-            {timeline.map((entry, i) => (
-              <motion.div
-                key={i}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: "-50px" }}
-                transition={{ duration: 0.6, delay: i * 0.1 }}
-                className="relative grid md:grid-cols-[140px_1fr] gap-6 md:gap-12"
-              >
-                {/* Período */}
-                <div className="hidden md:flex flex-col items-end pr-8">
-                  <span className="text-sm font-mono text-stone-400 whitespace-nowrap">
-                    {entry.period}
-                  </span>
-                </div>
+            {timeline.map((entry, i) => {
+              const period =
+                entry.period === "2023"
+                  ? `2023 — ${t("present")}`
+                  : entry.period;
 
-                {/* Dot */}
-                <div className="absolute left-0 md:left-[140px] -translate-x-1/2 top-1 w-3 h-3 rounded-full border-2 border-accent-500 bg-stone-50 z-10" />
-
-                {/* Contenido */}
-                <div className="pl-6 md:pl-8">
-                  <span className="md:hidden text-xs font-mono text-stone-400 mb-2 block">
-                    {entry.period}
-                  </span>
-                  <h3 className="font-display text-xl md:text-2xl font-semibold text-stone-900">
-                    {entry.role}
-                  </h3>
-                  <p className="text-accent-600 font-medium mt-1">
-                    {entry.company}{" "}
-                    <span className="text-stone-400 font-normal">
-                      &mdash; {entry.location}
+              return (
+                <motion.div
+                  key={i}
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, margin: "-50px" }}
+                  transition={{ duration: 0.6, delay: i * 0.1 }}
+                  className="relative grid md:grid-cols-[140px_1fr] gap-6 md:gap-12"
+                >
+                  {/* Período */}
+                  <div className="hidden md:flex flex-col items-end pr-8">
+                    <span className="text-sm font-mono text-stone-400 whitespace-nowrap">
+                      {period}
                     </span>
-                  </p>
-
-                  <ul className="mt-4 space-y-2">
-                    {entry.description.map((item, j) => (
-                      <li
-                        key={j}
-                        className="text-stone-600 text-sm leading-relaxed pl-4 relative before:content-[''] before:absolute before:left-0 before:top-[9px] before:w-1.5 before:h-[1px] before:bg-stone-400"
-                      >
-                        {item}
-                      </li>
-                    ))}
-                  </ul>
-
-                  <div className="mt-4 flex flex-wrap gap-2">
-                    {entry.technologies.map((tech) => (
-                      <span
-                        key={tech}
-                        className="text-xs font-mono px-2.5 py-1 bg-stone-100 text-stone-600 rounded"
-                      >
-                        {tech}
-                      </span>
-                    ))}
                   </div>
-                </div>
-              </motion.div>
-            ))}
+
+                  {/* Dot */}
+                  <div className="absolute left-0 md:left-[140px] -translate-x-1/2 top-1 w-3 h-3 rounded-full border-2 border-accent-500 bg-stone-50 z-10" />
+
+                  {/* Contenido */}
+                  <div className="pl-6 md:pl-8">
+                    <span className="md:hidden text-xs font-mono text-stone-400 mb-2 block">
+                      {period}
+                    </span>
+                    <h3 className="font-display text-xl md:text-2xl font-semibold text-stone-900">
+                      {t(entry.roleKey)}
+                    </h3>
+                    <p className="text-accent-600 font-medium mt-1">
+                      {entry.company}{" "}
+                      <span className="text-stone-400 font-normal">
+                        &mdash; {t(entry.locationKey)}
+                      </span>
+                    </p>
+
+                    <ul className="mt-4 space-y-2">
+                      {entry.descKeys.map((key, j) => (
+                        <li
+                          key={j}
+                          className="text-stone-600 text-sm leading-relaxed pl-4 relative before:content-[''] before:absolute before:left-0 before:top-[9px] before:w-1.5 before:h-[1px] before:bg-stone-400"
+                        >
+                          {t(key)}
+                        </li>
+                      ))}
+                    </ul>
+
+                    <div className="mt-4 flex flex-wrap gap-2">
+                      {entry.technologies.map((tech) => (
+                        <span
+                          key={tech}
+                          className="text-xs font-mono px-2.5 py-1 bg-stone-100 text-stone-600 rounded"
+                        >
+                          {tech}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                </motion.div>
+              );
+            })}
           </div>
         </div>
 
@@ -209,9 +212,11 @@ export default function ExperiencePage() {
                   {edu.period}
                 </span>
                 <div>
-                  <h3 className="font-semibold text-stone-900">{edu.degree}</h3>
-                  {edu.extra && (
-                    <p className="text-sm text-stone-500">{edu.extra}</p>
+                  <h3 className="font-semibold text-stone-900">
+                    {t(edu.degreeKey)}
+                  </h3>
+                  {edu.extraKey && (
+                    <p className="text-sm text-stone-500">{t(edu.extraKey)}</p>
                   )}
                   <p className="text-sm text-accent-600">{edu.school}</p>
                 </div>

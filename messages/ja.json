@@ -27,7 +27,25 @@
     "present": "現在",
     "technologies": "技術スタック",
     "education": "学歴",
-    "certifications": "資格"
+    "certifications": "資格",
+    "role1": "AIエンジニア＆テクニカルリード",
+    "location1": "オウレンセ、スペイン",
+    "role1_desc1": "LIBRA ERPのAI戦略とアーキテクチャをリードし、スペイン、コロンビア、エクアドル、ドミニカ共和国の500以上のクライアントにサービスを提供",
+    "role1_desc2": "LangChain、LlamaIndex、ベクターデータベース（ChromaDB、Pinecone）を使用した本番RAGシステムの設計",
+    "role1_desc3": "LangGraphを使用した複雑なエンタープライズワークフロー向けマルチエージェントAIシステムの設計、Multi-Pack RAGによる医療AIチャットボットの開発",
+    "role1_desc4": "ERPに統合されたAutoMLプラットフォームの構築によりモデル開発時間を短縮、売上予測用ML予測モデルのデプロイ",
+    "role1_desc5": "Azure MLとOracle CloudへのAIソリューションのデプロイ、CI/CDパイプラインとMLOpsプラクティスの確立、Llama・Mistral・DeepSeekによるLLMファインチューニング（LoRA）の探求",
+    "role2": "スタッフエンジニア → テックリード → プロジェクトマネージャー",
+    "location2": "オウレンセ、スペイン",
+    "role2_desc1": "6カ国（スペイン、メキシコ、フランス、コロンビア、エクアドル、ドミニカ共和国）の国際クライアント向けERPカスタマイズおよび導入プロジェクトのリード",
+    "role2_desc2": "複数タイムゾーンにわたる10〜15名のクロスファンクショナルチームの管理",
+    "role2_desc3": "エンタープライズ規模システム向けOracle DatabaseとPL/SQL最適化の深い専門知識の開発",
+    "role3": "フルスタック開発者",
+    "location3": "スペイン",
+    "role3_desc1": "ECプラットフォームのWeb開発",
+    "degree1": "人工知能修士",
+    "degree1_extra": "+ データエンジニアリング上級認定",
+    "degree2": "情報工学学士"
   },
   "projects": {
     "title": "プロジェクト",
@@ -47,7 +65,20 @@
     "subtitle": "つながりましょう",
     "description": "コラボレーションやライブデモへのアクセスに興味がありますか？以下のチャネルからお問い合わせください。",
     "email": "メール",
+    "emailLabel": "メール",
     "demoAccess": "プロジェクトのデモアクセスについては、メッセージにプロジェクト名をご記載ください。"
+  },
+  "errors": {
+    "notFound": {
+      "title": "ページが見つかりません",
+      "description": "お探しのページは存在しないか、移動されました。",
+      "goHome": "ホームへ戻る"
+    },
+    "error": {
+      "title": "エラーが発生しました",
+      "description": "予期しないエラーが発生しました。もう一度お試しください。",
+      "retry": "再試行"
+    }
   },
   "footer": {
     "rights": "全著作権所有。",

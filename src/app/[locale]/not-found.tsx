@@ -2,7 +2,7 @@ import { Link } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
 
 export default function NotFound() {
-  const t = useTranslations("nav");
+  const t = useTranslations("errors");
 
   return (
     <section className="flex-1 flex flex-col items-center justify-center px-6 py-32">
@@ -12,16 +12,16 @@ export default function NotFound() {
           404
         </p>
         <h1 className="font-display text-4xl md:text-5xl font-bold text-stone-900 mb-4">
-          Page not found
+          {t("notFound.title")}
         </h1>
         <p className="text-stone-500 mb-8 max-w-md mx-auto">
-          The page you&apos;re looking for doesn&apos;t exist or has been moved.
+          {t("notFound.description")}
         </p>
         <Link
           href="/"
           className="inline-block px-6 py-3 bg-stone-900 text-stone-50 rounded-md hover:bg-stone-800 transition-colors"
         >
-          {t("about")}
+          {t("notFound.goHome")}
         </Link>
       </div>
     </section>
