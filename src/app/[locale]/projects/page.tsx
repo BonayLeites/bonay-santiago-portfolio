@@ -97,8 +97,8 @@ export default function ProjectsPage() {
                           </span>
                         )}
                         {project.liveDemo && (
-                          <span className="text-[10px] font-mono tracking-widest uppercase px-3 py-1.5 bg-emerald-50 text-emerald-600 rounded-full border border-emerald-200 flex items-center gap-1.5">
-                            <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+                          <span className="text-[10px] font-mono tracking-widest uppercase px-3 py-1.5 bg-ink-50 text-ink-600 rounded-full border border-ink-200 flex items-center gap-1.5">
+                            <span className="w-1.5 h-1.5 rounded-full bg-ink-500 animate-pulse" />
                             {t("liveDemo")}
                           </span>
                         )}
@@ -148,7 +148,7 @@ export default function ProjectsPage() {
                         <p className="text-[10px] font-mono text-stone-400 tracking-widest uppercase mb-4">
                           Architecture
                         </p>
-                        <div className="grid grid-cols-3 md:grid-cols-7 gap-2 md:gap-3 text-center">
+                        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-7 gap-2 md:gap-3 text-center">
                           {[
                             {
                               label: "Data Loader",
@@ -186,14 +186,14 @@ export default function ProjectsPage() {
                               label: "Quality",
                               step: "6",
                               color:
-                                "bg-emerald-50 text-emerald-700 border-emerald-200",
+                                "bg-ink-50 text-ink-700 border-ink-200",
                             },
                           ].map((agent) => (
                             <div
                               key={agent.label}
                               className={`rounded-lg border px-2 py-3 ${agent.color}`}
                             >
-                              <span className="text-[9px] font-mono opacity-50 block">
+                              <span className="text-[11px] font-mono opacity-50 block">
                                 Step {agent.step}
                               </span>
                               <span className="text-[11px] font-medium block mt-0.5">

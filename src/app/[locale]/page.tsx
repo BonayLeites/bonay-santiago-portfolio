@@ -56,7 +56,7 @@ export default function HomePage() {
               initial="hidden"
               animate="visible"
               variants={fadeUp}
-              className="font-display text-5xl md:text-7xl lg:text-8xl font-bold text-stone-900 leading-[0.9] mb-6"
+              className="font-display text-5xl md:text-7xl lg:text-8xl font-bold text-stone-900 leading-[0.95] mb-6"
             >
               Santiago
               <br />

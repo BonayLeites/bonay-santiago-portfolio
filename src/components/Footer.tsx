@@ -6,7 +6,7 @@ export default function Footer() {
 
   return (
     <footer className="border-t border-stone-200 bg-stone-50">
-      <div className="max-w-6xl mx-auto px-6 md:px-12 py-12">
+      <div className="max-w-6xl mx-auto px-6 md:px-12 py-16 md:py-20">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           {/* Izquierda */}
           <div className="flex flex-col items-center md:items-start gap-2">
@@ -24,7 +24,7 @@ export default function Footer() {
               href="https://github.com/BonayLeites"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-stone-400 hover:text-stone-900 transition-colors"
+              className="text-stone-400 hover:text-accent-600 transition-colors"
               aria-label="GitHub"
             >
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -35,7 +35,7 @@ export default function Footer() {
               href="https://linkedin.com/in/santiago-bonay"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-stone-400 hover:text-stone-900 transition-colors"
+              className="text-stone-400 hover:text-accent-600 transition-colors"
               aria-label="LinkedIn"
             >
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -44,7 +44,7 @@ export default function Footer() {
             </a>
             <a
               href="mailto:bonay.santiago@gmail.com"
-              className="text-stone-400 hover:text-stone-900 transition-colors"
+              className="text-stone-400 hover:text-accent-600 transition-colors"
               aria-label="Email"
             >
               <svg
