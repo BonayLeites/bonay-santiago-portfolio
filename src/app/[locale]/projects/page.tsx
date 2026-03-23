@@ -3,6 +3,7 @@
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import { Link } from "@/i18n/routing";
+import Image from "next/image";
 
 type Project = {
   titleKey?: string;
@@ -127,6 +128,19 @@ export default function ProjectsPage() {
                             {tag}
                           </span>
                         ))}
+                      </div>
+
+                      {/* Screenshot del CPM */}
+                      <div className="relative rounded-xl overflow-hidden border border-stone-200 mb-8">
+                        <Image
+                          src="/images/cpm-workflow-run.png"
+                          alt="CPM Agent Accelerator — Workflow Run showing 7 AI agents completing consolidation review"
+                          width={1617}
+                          height={760}
+                          className="w-full h-auto"
+                          priority
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-white/20 to-transparent pointer-events-none" />
                       </div>
 
                       {/* Diagrama de arquitectura visual */}
