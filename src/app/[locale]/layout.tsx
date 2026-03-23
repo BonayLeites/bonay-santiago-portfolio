@@ -31,7 +31,7 @@ type Props = {
   params: Promise<{ locale: string }>;
 };
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://santiagobonay.com";
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://bonay.dev";
 
 export async function generateMetadata({ params }: Props) {
   const { locale } = await params;

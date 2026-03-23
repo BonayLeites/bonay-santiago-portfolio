@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { routing } from "@/i18n/routing";
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://santiagobonay.com";
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://bonay.dev";
 
 const pages = ["", "/experience", "/projects", "/contact"];
 
