@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/routing";
 
 export default function Footer() {
   const t = useTranslations("footer");
@@ -13,9 +14,18 @@ export default function Footer() {
             <span className="font-display text-lg font-semibold text-stone-900">
               SB<span className="text-accent-500">.</span>
             </span>
-            <span className="text-xs text-stone-400">
-              &copy; {year} Santiago Bonay. {t("rights")}
-            </span>
+            <div className="flex items-center gap-3 text-xs text-stone-400">
+              <span>
+                &copy; {year} Santiago Bonay. {t("rights")}
+              </span>
+              <span className="hidden sm:inline">·</span>
+              <Link
+                href="/privacy"
+                className="hover:text-accent-600 transition-colors"
+              >
+                {t("privacy")}
+              </Link>
+            </div>
           </div>
 
           {/* Links sociales */}

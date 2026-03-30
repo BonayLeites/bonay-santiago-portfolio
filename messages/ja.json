@@ -82,6 +82,30 @@
   },
   "footer": {
     "rights": "全著作権所有。",
-    "built": "Next.jsとTailwind CSSで構築"
+    "built": "Next.jsとTailwind CSSで構築",
+    "privacy": "プライバシーポリシー"
+  },
+  "privacy": {
+    "title": "プライバシーポリシー",
+    "subtitle": "プライバシーを大切にしています",
+    "lastUpdated": "最終更新日：2026年3月",
+    "introTitle": "はじめに",
+    "intro": "本ウェブサイト（bonay.dev）はSantiago Bonayが運営する個人ポートフォリオです。本ポリシーは、本サイトを訪問された際のデータの取り扱いについて説明します。",
+    "collectionTitle": "収集するデータ",
+    "collectionDesc": "本ウェブサイトはCookieを使用せず、フォームによる個人データの収集も行わず、ウェブサイト間でのトラッキングも行いません。Vercelが提供するプライバシー重視の2つの分析サービスを使用しています：",
+    "analyticsTitle": "Vercel Web Analytics",
+    "analyticsDesc": "匿名かつ集計されたページビューデータを収集します。個人識別子は保存されません。データポイントには、訪問URL、リファラー、ジオロケーション（国/地域レベル）、デバイスタイプ、ブラウザ、オペレーティングシステムが含まれます。訪問者の識別にはリクエストからのハッシュを使用し、24時間後に破棄されます。",
+    "speedTitle": "Vercel Speed Insights",
+    "speedDesc": "サイトの速度を監視するために匿名のパフォーマンスメトリクス（Core Web Vitals）を収集します。データポイントには、ルート、ネットワーク速度、ブラウザ、デバイスタイプ、国、パフォーマンススコアが含まれます。個人識別子は保存されません。",
+    "noCookiesTitle": "Cookie",
+    "noCookies": "本ウェブサイトはCookieを使用しません。上記の分析サービスはCookieなしで動作し、お使いのデバイスに情報を保存しません。",
+    "thirdPartyTitle": "サードパーティサービス",
+    "thirdParty": "フォントはセルフホストされており、外部サーバーへのリクエストは発生しません。サードパーティのトラッキングスクリプト（Google Analytics、Facebook Pixelなど）は使用していません。GitHub、LinkedIn、メールへの外部リンクは標準的なリンクであり、トラッキングは適用されません。",
+    "rightsTitle": "あなたの権利",
+    "rights": "GDPRに基づき、個人データへのアクセス、修正、削除の権利があります。本サイトは個人データを収集しないため、アクセス、変更、削除するデータはありません。ご質問がある場合は、以下までご連絡ください：",
+    "hostingTitle": "ホスティングとデータ処理",
+    "hosting": "本サイトはVercel Inc.（米国サンフランシスコ）でホストされています。Vercelはデータ処理者として、国際データ転送にEU標準契約条項（SCC）を通じてGDPRに準拠しています。詳細については、vercel.com/legal/privacy-policyのVercelプライバシーポリシーをご覧ください。",
+    "changesTitle": "本ポリシーの変更",
+    "changes": "本ポリシーは随時更新される場合があります。変更は更新日とともにこのページに反映されます。"
   }
 }

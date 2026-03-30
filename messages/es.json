@@ -82,6 +82,30 @@
   },
   "footer": {
     "rights": "Todos los derechos reservados.",
-    "built": "Construido con Next.js y Tailwind CSS"
+    "built": "Construido con Next.js y Tailwind CSS",
+    "privacy": "Política de privacidad"
+  },
+  "privacy": {
+    "title": "Política de privacidad",
+    "subtitle": "Tu privacidad importa",
+    "lastUpdated": "Última actualización: marzo 2026",
+    "introTitle": "Introducción",
+    "intro": "Este sitio web (bonay.dev) es un portfolio personal operado por Santiago Bonay. Esta política explica cómo se gestionan los datos cuando visitas este sitio.",
+    "collectionTitle": "Datos que recopilamos",
+    "collectionDesc": "Este sitio web no utiliza cookies, no recopila datos personales mediante formularios y no te rastrea entre sitios web. Utilizamos dos servicios de analítica orientados a la privacidad proporcionados por Vercel:",
+    "analyticsTitle": "Vercel Web Analytics",
+    "analyticsDesc": "Recopila datos anónimos y agregados de páginas vistas. No se almacenan identificadores personales. Los datos incluyen: URL visitada, referrer, geolocalización (a nivel de país/región), tipo de dispositivo, navegador y sistema operativo. La identificación de visitantes usa un hash de la petición que se descarta a las 24 horas.",
+    "speedTitle": "Vercel Speed Insights",
+    "speedDesc": "Recopila métricas de rendimiento anónimas (Core Web Vitals) para monitorizar la velocidad del sitio. Los datos incluyen: ruta, velocidad de red, navegador, tipo de dispositivo, país y puntuaciones de rendimiento. No se almacenan identificadores personales.",
+    "noCookiesTitle": "Cookies",
+    "noCookies": "Este sitio web no utiliza cookies. Los servicios de analítica mencionados funcionan sin cookies y no almacenan ninguna información en tu dispositivo.",
+    "thirdPartyTitle": "Servicios de terceros",
+    "thirdParty": "Las fuentes tipográficas están autoalojadas y no generan peticiones a servidores externos. No se utilizan scripts de rastreo de terceros (Google Analytics, Facebook Pixel, etc.). Los enlaces externos a GitHub, LinkedIn y correo electrónico son enlaces estándar — no se les aplica ningún rastreo.",
+    "rightsTitle": "Tus derechos",
+    "rights": "Bajo el RGPD, tienes derecho a acceder, rectificar y eliminar tus datos personales. Dado que este sitio no recopila datos personales, no hay datos que acceder, modificar o eliminar. Si tienes preguntas, puedes contactarme en:",
+    "hostingTitle": "Alojamiento y procesamiento de datos",
+    "hosting": "Este sitio está alojado en Vercel Inc. (San Francisco, EE.UU.). Vercel actúa como encargado del tratamiento y cumple con el RGPD mediante las Cláusulas Contractuales Tipo (CCT) de la UE para transferencias internacionales de datos. Para más detalles, consulta la política de privacidad de Vercel en vercel.com/legal/privacy-policy.",
+    "changesTitle": "Cambios en esta política",
+    "changes": "Esta política puede actualizarse ocasionalmente. Cualquier cambio se reflejará en esta página con una fecha actualizada."
   }
 }

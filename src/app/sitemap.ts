@@ -3,7 +3,7 @@ import { routing } from "@/i18n/routing";
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://bonay.dev";
 
-const pages = ["", "/experience", "/projects", "/contact"];
+const pages = ["", "/experience", "/projects", "/contact", "/privacy"];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return pages.flatMap((page) =>
