@@ -58,6 +58,11 @@
       "title": "CPM Agent Accelerator",
       "description": "企業業績管理のためのマルチエージェントAIプラットフォーム。リアルタイムワークフローオーケストレーション、DAG実行、エグゼクティブナラティブ生成による自動連結レビューと業績分析。",
       "highlights": "9つの専門AIエージェント · リアルタイムSSEストリーミング · 3言語対応（EN/ES/JA）"
+    },
+    "detective": {
+      "title": "Office Detective",
+      "description": "企業文書を分析し、隠れたつながりを発見し、セマンティック検索とナレッジグラフ推論を使用して不正事件を解決するAI搭載の調査ゲーム。",
+      "highlights": "LangGraph AIエージェント · pgvectorによるRAG · Neo4jナレッジグラフ · ゲーミフィケーションXPシステム"
     }
   },
   "contact": {

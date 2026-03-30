@@ -58,6 +58,11 @@
       "title": "CPM Agent Accelerator",
       "description": "Multi-agent AI platform for Corporate Performance Management. Automated consolidation review and performance analysis with real-time workflow orchestration, DAG execution, and executive narrative generation.",
       "highlights": "9 specialized AI agents · Real-time SSE streaming · 3 languages (EN/ES/JA)"
+    },
+    "detective": {
+      "title": "Office Detective",
+      "description": "AI-powered investigation game where players analyze corporate documents, uncover hidden connections, and solve fraud cases using semantic search and knowledge graph reasoning.",
+      "highlights": "LangGraph AI agent · RAG with pgvector · Neo4j knowledge graph · Gamified XP system"
     }
   },
   "contact": {
