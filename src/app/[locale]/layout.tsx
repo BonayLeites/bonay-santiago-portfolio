@@ -3,8 +3,6 @@ import { getMessages, getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { Playfair_Display, Source_Sans_3, JetBrains_Mono } from "next/font/google";
 import { routing } from "@/i18n/routing";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
@@ -77,11 +75,7 @@ export default async function LocaleLayout({ children, params }: Props) {
     <html lang={locale} className={`scroll-smooth ${playfair.variable} ${sourceSans.variable} ${jetbrains.variable}`}>
       <body className="min-h-screen flex flex-col">
         <NextIntlClientProvider messages={messages}>
-          <Navbar />
-          <main className="flex-1 pt-16">{children}</main>
-          <Footer />
-          {/* Grano sutil de textura */}
-          <div className="grain-overlay" aria-hidden="true" />
+          {children}
         </NextIntlClientProvider>
         <Analytics />
         <SpeedInsights />
