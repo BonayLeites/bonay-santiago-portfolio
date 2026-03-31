@@ -103,7 +103,7 @@
     "speedTitle": "Vercel Speed Insights",
     "speedDesc": "Collects anonymous performance metrics (Core Web Vitals) to monitor site speed. Data points include: route, network speed, browser, device type, country, and performance scores. No personal identifiers are stored.",
     "noCookiesTitle": "Cookies",
-    "noCookies": "This website does not use cookies. The analytics services mentioned above operate without cookies and do not store any information on your device.",
+    "noCookies": "This website uses a single functional cookie for authenticated access to restricted sections. This session cookie is httpOnly, secure, and expires after 24 hours. No tracking cookies are used. The analytics services mentioned above operate without cookies.",
     "thirdPartyTitle": "Third-party services",
     "thirdParty": "Fonts are self-hosted and do not generate requests to external servers. No third-party tracking scripts (Google Analytics, Facebook Pixel, etc.) are used. External links to GitHub, LinkedIn, and email are standard links — no tracking is applied to them.",
     "rightsTitle": "Your rights",

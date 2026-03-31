@@ -103,7 +103,7 @@
     "speedTitle": "Vercel Speed Insights",
     "speedDesc": "サイトの速度を監視するために匿名のパフォーマンスメトリクス（Core Web Vitals）を収集します。データポイントには、ルート、ネットワーク速度、ブラウザ、デバイスタイプ、国、パフォーマンススコアが含まれます。個人識別子は保存されません。",
     "noCookiesTitle": "Cookie",
-    "noCookies": "本ウェブサイトはCookieを使用しません。上記の分析サービスはCookieなしで動作し、お使いのデバイスに情報を保存しません。",
+    "noCookies": "本ウェブサイトは、制限されたセクションへの認証アクセスのために単一の機能的なCookieを使用します。このセッションCookieはhttpOnlyで安全であり、24時間後に期限切れになります。トラッキングCookieは使用されません。上記の分析サービスはCookieなしで動作します。",
     "thirdPartyTitle": "サードパーティサービス",
     "thirdParty": "フォントはセルフホストされており、外部サーバーへのリクエストは発生しません。サードパーティのトラッキングスクリプト（Google Analytics、Facebook Pixelなど）は使用していません。GitHub、LinkedIn、メールへの外部リンクは標準的なリンクであり、トラッキングは適用されません。",
     "rightsTitle": "あなたの権利",
