@@ -5,7 +5,8 @@ import { COOKIE_NAME, verifyToken } from "./lib/pin-auth";
 
 const intlMiddleware = createMiddleware(routing);
 
-const PRIVATE_ROUTE_PATTERN = /^\/(en|es|ja)\/private(?!\/login)/;
+const localeGroup = routing.locales.join("|");
+const PRIVATE_ROUTE_PATTERN = new RegExp(`^/(${localeGroup})/private(?!/login)`);
 
 export default async function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;

@@ -1,4 +1,3 @@
-// src/app/api/pin/verify/route.ts
 import { NextRequest, NextResponse } from "next/server";
 import {
   COOKIE_NAME,

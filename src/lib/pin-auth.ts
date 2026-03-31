@@ -1,21 +1,27 @@
-// src/lib/pin-auth.ts
 export const COOKIE_NAME = "private_session";
-export const COOKIE_MAX_AGE = 86400; // 24 horas
+export const COOKIE_MAX_AGE = 60 * 60 * 24;
 
-async function hmacSign(data: string, secret: string): Promise<string> {
-  const encoder = new TextEncoder();
-  const key = await crypto.subtle.importKey(
+const encoder = new TextEncoder();
+
+let cachedKey: CryptoKey | null = null;
+let cachedSecret: string | null = null;
+
+async function getHmacKey(secret: string): Promise<CryptoKey> {
+  if (cachedKey && cachedSecret === secret) return cachedKey;
+  cachedKey = await crypto.subtle.importKey(
     "raw",
     encoder.encode(secret),
     { name: "HMAC", hash: "SHA-256" },
     false,
     ["sign"]
   );
-  const signature = await crypto.subtle.sign(
-    "HMAC",
-    key,
-    encoder.encode(data)
-  );
+  cachedSecret = secret;
+  return cachedKey;
+}
+
+async function hmacSign(data: string, secret: string): Promise<string> {
+  const key = await getHmacKey(secret);
+  const signature = await crypto.subtle.sign("HMAC", key, encoder.encode(data));
   return Array.from(new Uint8Array(signature))
     .map((b) => b.toString(16).padStart(2, "0"))
     .join("");
