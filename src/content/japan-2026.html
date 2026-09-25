@@ -613,7 +613,7 @@
   .atlas-detail-link:hover { color: #FAF6F1; }
 
   .leaflet-container { font-family: var(--font-body); background: #DDD8CF; }
-  .leaflet-control-attribution { font-size: 8px; }
+  .leaflet-control-attribution { font-size: 11px; }
   .leaflet-control-zoom { border: 0 !important; box-shadow: 0 4px 18px rgba(44,36,32,0.18) !important; }
   .leaflet-control-zoom a { color: var(--text) !important; background: rgba(250,246,241,0.94) !important; }
 
@@ -1879,7 +1879,7 @@
         <li><strong>Transporte estimado (2 personas):</strong> ~€710</li>
         <li style="font-size:12px; color:var(--text-muted); padding-left:20px;">Trenes principales (Shinkansen, Azusa, Shinano, NEX, etc.): ~€600</li>
         <li style="font-size:12px; color:var(--text-muted); padding-left:20px;">Metro/local diario con Suica (~15 días): ~€110</li>
-        <li style="font-size:12px; color:var(--text-muted); padding-left:20px;">Opcional: Nikko ida/vuelta ~€67 · Kyoto extra desde Osaka ~€20</li>
+        <li style="font-size:12px; color:var(--text-muted); padding-left:20px;">Opcional: Kyoto extra desde Osaka ~€20</li>
         <li><strong>Takkyubin Tavinos → Kyoto:</strong> ~€15</li>
         <li style="margin-top:8px; padding-top:8px; border-top:1px solid var(--border);"><strong>Total pre-viaje (hoteles + vuelos + seguro + parking):</strong> <span style="color:var(--accent); font-weight:700; font-size:16px;">€4,192</span></li>
         <li><strong>Total estimado con transporte en Japón:</strong> <span style="color:var(--accent); font-weight:700; font-size:16px;">~€4,917</span></li>
@@ -1941,8 +1941,9 @@
       <div data-checklist="viaje">
         <div class="checklist-item"><input type="checkbox" id="c10"><label for="c10"><strong>Azusa + billetes de papel de Kiso</strong> — Reservar Azusa online el 20 oct; comprar billete base y Shinano en JR Central Tokyo el 18 nov. <a href="#billetes">Ver manual</a></label></div>
         <div class="checklist-item"><input type="checkbox" id="c11"><label for="c11"><strong>Shinano Nakatsugawa → Nagoya</strong> — Comprar base + suplemento reservado en JR Central Tokyo el 18 nov. <a href="#billetes">Ver manual</a></label></div>
-        <div class="checklist-item"><input type="checkbox" id="c12"><label for="c12"><strong>Comprobar foliage</strong> para decidir Nikko (día 19) — japan-guide.com</label></div>
+        <div class="checklist-item"><input type="checkbox" id="c12"><label for="c12"><strong>Comprobar foliage</strong> — Consultar reportes recientes para los jardines de Tokyo; Ueno solo si muestra buen color.</label></div>
         <div class="checklist-item"><input type="checkbox" id="c13"><label for="c13"><strong>Cascabel de oso (kuma-yoke-suzu)</strong> — Comprar en Kiso-Fukushima o Magome (~¥500)</label></div>
+        <div class="checklist-item"><input type="checkbox" id="c-tokyo-nights"><label for="c-tokyo-nights"><strong>Noches de Tokyo</strong> — Reconfirmar Kamukura Asakusa (17 nov), programa de luces de Marunouchi (18 nov) y accesos al Tori-no-Ichi (19 nov).</label></div>
       </div>
 
     </div>
@@ -2076,16 +2077,18 @@
     <div class="day-top">
       <div class="day-number"><small>Día</small>1</div>
       <div class="day-header">
-        <h3>Llegada a Tokyo</h3>
+        <h3>Llegada — Kamukura y Sensō-ji de noche</h3>
         <p class="dh-meta">17 nov · Llegada 19:00 · Noche: Tokyo</p>
       </div>
     </div>
     <div class="day-body">
-      <p>Día de aterrizaje, nada ambicioso. Tras pasar inmigración, recogida de equipaje y traslado al hotel:</p>
+      <p>Aterrizaje a las 19:00, inmigración, equipaje y traslado a Asakusa. Noche sin horarios rígidos: dejar las maletas en el Tavinos y priorizar la cena antes del paseo.</p>
       <ul>
-        <li>Paseo corto por Ueno / Ameyoko si llegas con energía</li>
-        <li>Cena pronto y dormir bien para ajustar jet lag</li>
+        <li><strong>Cena en Dōtonbori Kamukura, Asakusa ROX・3G</strong> — Planta 1, Asakusa 1-26-5. Ramen por la zona del hotel. Horario publicado: 11:00–22:00, <strong>último pedido 21:45</strong>. <a href="https://kamukura.co.jp/shop/5798/" target="_blank" rel="noopener">Ficha oficial ↗</a></li>
+        <li><strong>Paseo nocturno por Sensō-ji</strong> — Exteriores del templo, Hōzōmon y pagoda iluminados; unos 20–30 min, sin visita al interior ni compras en Nakamise. Iluminación habitual hasta aproximadamente las <strong>23:00</strong>. <a href="https://www.senso-ji.jp/info/lightup.html" target="_blank" rel="noopener">Horario oficial ↗</a></li>
+        <li>Regreso a pie al hotel y dormir.</li>
       </ul>
+      <div class="tip"><strong>Margen de llegada:</strong> Con aterrizaje a las 19:00, Kamukura depende de inmigración y del tren. Si no llegáis antes del último pedido, cenad en una alternativa abierta cerca del hotel y dejad Kamukura para otra ocasión. El paseo se ajusta a la hora real de llegada.</div>
       <div class="transport-badge">🚃 Asakusa Line directa Narita → Asakusa · ~1h20 · ~¥1,300 (o Skyliner a Ueno + metro · 55 min · ¥2,750)</div>
       <div class="hotel-rec">
         <p class="hr-label">🏨 Tokyo I · 3 noches · Hotel Tavinos Asakusa</p>
@@ -2103,53 +2106,64 @@
   </article>
 
   <!-- DÍA 2 -->
-  <article class="day-card" data-type="nature">
+  <article class="day-card" data-type="culture">
     <div class="day-top">
       <div class="day-number"><small>Día</small>2</div>
       <div class="day-header">
-        <h3>Tokyo suave — Jardines y ginkgos</h3>
+        <h3>Kappabashi, Kiyosumi y Tokyo de noche</h3>
         <p class="dh-meta">18 nov · Noche: Tokyo</p>
       </div>
     </div>
     <div class="day-body">
-      <p>Primer día real, ritmo ligero sin logística larga:</p>
+      <p>Artesanía, un jardín y paseo nocturno por el centro. Horarios orientativos, con comida y cafés durante la ruta, sin volver al hotel a mediodía.</p>
       <div class="timeline">
-        <div class="tl-item"><span class="tl-time">9:00</span><span class="tl-desc">Rikugien o Koishikawa Korakuen (jardines clásicos empezando a coger color)</span></div>
-        <div class="tl-item"><span class="tl-time">13:00</span><span class="tl-desc">Meiji Jingu Gaien — paseo de ginkgos dorados</span></div>
-        <div class="tl-item"><span class="tl-time">17:00</span><span class="tl-desc">Ginza / Marunouchi al atardecer</span></div>
+        <div class="tl-item"><span class="tl-time">10:00</span><span class="tl-desc"><strong>Kappabashi</strong> — Cerámica, utensilios de cocina y tiendas hasta aproximadamente las 11:30.</span></div>
+        <div class="tl-item"><span class="tl-time">11:30</span><span class="tl-desc">Paseo hacia <strong>Kuramae</strong>, pequeñas tiendas, café y comida por la zona.</span></div>
+        <div class="tl-item"><span class="tl-time">13:30</span><span class="tl-desc">Traslado a Kiyosumi-Shirakawa por la línea Oedo.</span></div>
+        <div class="tl-item"><span class="tl-time">14:00</span><span class="tl-desc"><strong>Kiyosumi Gardens</strong> — Estanque, pinos y pasos de piedra; unos 75 min. La visita merece la pena aunque el follaje siga verde.</span></div>
+        <div class="tl-item"><span class="tl-time">15:15</span><span class="tl-desc">Traslado a <strong>Tokyo Station</strong>, con margen para llegar al lado Yaesu y localizar la ventanilla.</span></div>
+        <div class="tl-item"><span class="tl-time">16:15</span><span class="tl-desc"><strong>JR Central Ticket Office</strong> — Comprar el billete base Shinjuku → Kiso-Fukushima y el suplemento reservado Shinano del 20; también base + suplemento reservado Nakatsugawa → Nagoya del 22. Mostrar la reserva de Azusa para no duplicarla. <a href="#billetes">Ver manual ↓</a></span></div>
+        <div class="tl-item"><span class="tl-time">17:15</span><span class="tl-desc"><strong>Plaza de Tokyo Station, lado Marunouchi</strong> — Fachada iluminada y fotos de la estación.</span></div>
+        <div class="tl-item"><span class="tl-time">17:45</span><span class="tl-desc"><strong>Marunouchi Naka-dōri</strong> — Paseo hacia el sur entre escaparates y decoración de temporada.</span></div>
+        <div class="tl-item"><span class="tl-time">18:30</span><span class="tl-desc"><strong>Yūrakuchō</strong> — Ambiente de los restaurantes bajo las vías.</span></div>
+        <div class="tl-item"><span class="tl-time">19:00</span><span class="tl-desc"><strong>Ginza Chūō-dōri</strong> — Fachadas luminosas, escaparates y cruce de Ginza 4-chōme. Cena por la zona y regreso a Asakusa.</span></div>
       </div>
-      <div class="tip"><strong>Momiji:</strong> Los jardines de Tokyo funcionan bien entre mediados de noviembre y principios de diciembre. Rikugien es especialmente potente a finales de noviembre.</div>
+      <div class="transport-badge">🚶 Kappabashi → Kuramae · 🚇 Oedo a Kiyosumi-Shirakawa · metro al centro · 🚶 Tokyo Station → Marunouchi → Yūrakuchō → Ginza (~3 km según desvíos)</div>
+      <div class="tip"><strong>Luces del 18:</strong> Marunouchi Bright Holiday 2026 está anunciado del 12 nov al 25 dic. Los detalles de la iluminación de calles se publicarán a finales de octubre: confirmar entonces qué tramos estarán encendidos. La ruta incluye también las luces urbanas de Tokyo Station y Ginza. <a href="https://prtimes.jp/main/html/rd/p/000000004.000163832.html" target="_blank" rel="noopener">Anuncio del organizador ↗</a></div>
+      <p><strong>Horarios publicados:</strong> Kappabashi, generalmente 10:00–17:00 según tienda; Kiyosumi, 9:00–17:00 (última entrada 16:30), ¥150 por persona. Rikugien, Koishikawa y los ginkgos de Gaien quedan para valorar en el bloque final de Tokyo. <a href="https://www.kappabashi.or.jp/news/1637/" target="_blank" rel="noopener">Kappabashi ↗</a> · <a href="https://www.gotokyo.org/en/spot/25/index.html" target="_blank" rel="noopener">Kiyosumi ↗</a></p>
     </div>
   </article>
 
   <!-- DÍA 3 -->
-  <article class="day-card" data-type="flex">
+  <article class="day-card" data-type="culture">
     <div class="day-top">
       <div class="day-number"><small>Día</small>3</div>
       <div class="day-header">
-        <h3>Comodín — Nikko o Tokyo</h3>
+        <h3>Nezu, Yanaka y Tori-no-Ichi</h3>
         <p class="dh-meta">19 nov · Noche: Tokyo</p>
       </div>
     </div>
     <div class="day-body">
-      <p>Decide según reportes reales de foliage la semana antes del viaje:</p>
-      <p><strong>Plan A — Nikko</strong> (si viene tardío ese año)</p>
-      <ul>
-        <li>Tren desde Asakusa (Tobu Railway, ~2h, ~¥2,800 ida)</li>
-        <li>Toshogu, puente Shinkyo, senderos del santuario</li>
-      </ul>
-      <p><strong>Plan B — Tokyo completo</strong> (si Nikko ya pasó)</p>
-      <ul>
-        <li>Yanaka + Nezu por la mañana</li>
-        <li>Shinjuku Gyoen + barrio que apetezca por la tarde</li>
-      </ul>
-      <div class="tip"><strong>Nota:</strong> Nikko suele tener su pico entre mediados de octubre y principios de noviembre. Para el 19 nov es ventana menos segura. Si no hay color, Tokyo tiene de sobra para llenar el día.</div>
+      <p>Día de barrios tradicionales y festival en Asakusa. Comida y café durante el paseo, sin parada en el hotel a mediodía.</p>
+      <div class="timeline">
+        <div class="tl-item"><span class="tl-time">9:00</span><span class="tl-desc"><strong>Kyū-Iwasaki-tei</strong> — Antigua residencia de la familia fundadora de Mitsubishi: arquitectura occidental y japonesa, con jardín. Visita de unos 75 min.</span></div>
+        <div class="tl-item"><span class="tl-time">10:15</span><span class="tl-desc">Traslado hacia Nezu, con margen para caminar.</span></div>
+        <div class="tl-item"><span class="tl-time">11:00</span><span class="tl-desc"><strong>Nezu-jinja</strong> — Santuario y recorrido entre los pequeños torii rojos.</span></div>
+        <div class="tl-item"><span class="tl-time">12:00</span><span class="tl-desc"><strong>Sendagi</strong> — Callejuelas y comida por la zona.</span></div>
+        <div class="tl-item"><span class="tl-time">13:30</span><span class="tl-desc"><strong>Yanaka</strong> — Yanaka Ginza, Yuyake Dandan y calles del barrio; café durante el paseo.</span></div>
+        <div class="tl-item"><span class="tl-time">15:30</span><span class="tl-desc">Traslado hacia el festival de Asakusa. Reservar margen para los accesos y la afluencia.</span></div>
+        <div class="tl-item"><span class="tl-time">16:30</span><span class="tl-desc"><strong>Tori-no-Ichi: santuario Ōtori y templo Chōkoku-ji</strong> — Puestos de kumade y ambiente de feria, entrando con luz y quedándoos al anochecer.</span></div>
+        <div class="tl-item"><span class="tl-time">19:00</span><span class="tl-desc">Cena por Asakusa y regreso al hotel. Preparar la mochila para salir hacia Kiso al día siguiente.</span></div>
+      </div>
+      <div class="tip"><strong>Festival confirmado:</strong> El segundo Tori-no-Ichi de 2026 se celebra el <strong>19 de noviembre, de 0:00 a 24:00</strong>. La franja 16:30–19:00 es orientativa; puede haber mucha gente. <a href="https://otorisama.or.jp/sm/kotoshi_m/" target="_blank" rel="noopener">Programa oficial ↗</a></div>
+      <p><strong>Mañana flexible:</strong> Kyū-Iwasaki-tei abre de 9:00 a 17:00 (última entrada 16:30), ¥400 por persona. Si preferís más barrio, empezad directamente en Nezu. Ueno queda fuera del plan base: solo reconsiderarlo si los reportes cercanos muestran buen color. <a href="https://www.gotokyo.org/en/spot/420/index.html" target="_blank" rel="noopener">Kyū-Iwasaki-tei ↗</a> · <a href="https://www.gotokyo.org/en/story/walks-and-tours/yanaka-and-nezu/" target="_blank" rel="noopener">Ruta de barrios ↗</a></p>
       <div class="train-tickets">
-        <p class="tt-label">🚄 Trenes del día (solo si Plan A Nikko)</p>
+        <p class="tt-label">🚇 Transporte del día</p>
         <ul>
-          <li><strong>Tobu Railway Limited Express</strong> Asakusa → Tobu-Nikko · ~2h · ~¥2,800 ida</li>
+          <li>Metro hacia la zona de Yushima para Kyū-Iwasaki-tei; paseos entre Nezu, Sendagi y Yanaka.</li>
+          <li>Traslado desde Yanaka hacia Asakusa para el festival; último tramo a pie según el acceso habilitado.</li>
         </ul>
-        <p class="tt-how">Compra: NIKKO PASS + suplemento Limited Express son dos productos distintos. Salida recomendada desde Tobu Asakusa; evita la ruta mixta JR+Tobu desde Shinjuku. <a href="#billetes" style="color:var(--blue); font-weight:600;">Ver manual detallado ↓</a></p>
+        <p class="tt-how">Compra: Suica/IC card para los trayectos urbanos. Sin reservas de larga distancia.</p>
       </div>
     </div>
   </article>
@@ -2747,39 +2761,30 @@
 
       <details class="rail-route">
         <summary>
-          <span class="route-date">19 nov</span>
-          <span class="route-title"><strong>Asakusa → Nikkō → Asakusa</strong><span>Solo si se mantiene el plan opcional</span></span>
-          <span class="route-buy-state optional">2 compras Tobu</span>
+          <span class="route-date">18–19 nov</span>
+          <span class="route-title"><strong>Paseos urbanos por Tokyo</strong><span>Kiyosumi, barrios tradicionales y Tori-no-Ichi</span></span>
+          <span class="route-buy-state local">Suica / IC</span>
         </summary>
         <div class="rail-route-body">
-          <div class="ticket-stack">
-            <div class="ticket-piece"><span>1</span><span><strong>NIKKO PASS world heritage area</strong><small>Cubre la tarifa base de Tobu y transporte local de la zona; no incluye templos.</small></span><span class="ticket-format">Pase digital</span></div>
-            <div class="ticket-piece"><span>2</span><span><strong>Limited Express ticket · ida</strong><small>Asakusa → Tobu-Nikko, asiento estándar reservado.</small></span><span class="ticket-format">Confirmación</span></div>
-            <div class="ticket-piece"><span>3</span><span><strong>Limited Express ticket · vuelta</strong><small>Tobu-Nikko → Asakusa, asiento estándar reservado.</small></span><span class="ticket-format">Confirmación</span></div>
-          </div>
           <div class="rail-columns">
             <div class="rail-box">
-              <h4>Compra paso a paso</h4>
-              <ol>
-                <li>Decide si se hace Nikkō al ver el foliage, aproximadamente el <strong>10–12 nov</strong>.</li>
-                <li>En la web Tobu compra primero <strong>NIKKO PASS world heritage area</strong> para dos adultos.</li>
-                <li>Añade por separado dos <strong>Limited Express tickets</strong>: ida y vuelta.</li>
-                <li>Elige tren directo desde <strong>Asakusa</strong>: SPACIA X, Kegon o Revaty Kegon con destino Tobu-Nikko.</li>
-                <li>Guarda offline el pase y ambas confirmaciones. El suplemento solo no permite atravesar el torno.</li>
-              </ol>
-              <a class="official-link" href="https://tobu-japantrip-tickets.com/#limited-express" target="_blank" rel="noopener">Comprar en Tobu oficial ↗</a>
+              <h4>18 nov · Kiyosumi y luces</h4>
+              <ul>
+                <li>Kappabashi → Kuramae a pie; desde Kuramae, línea Oedo a Kiyosumi-Shirakawa.</li>
+                <li>Metro hacia Tokyo Station después del jardín. Dejar margen para llegar a la ventanilla JR Central del lado Yaesu a las 16:15.</li>
+                <li>Después de los billetes, paseo Tokyo Station → Marunouchi → Yūrakuchō → Ginza. Regreso a Asakusa en metro.</li>
+              </ul>
             </div>
             <div class="rail-box">
-              <h4>Evitar el problema de la otra vez</h4>
+              <h4>19 nov · Barrios y festival</h4>
               <ul>
-                <li><strong>No compres el tren “Nikko” desde Shinjuku:</strong> mezcla JR + Tobu y tiene reglas distintas.</li>
-                <li>El hotel está en Asakusa: usa exclusivamente <strong>Tobu Asakusa → Tobu-Nikko</strong>.</li>
-                <li>No uses Suica si compras NIKKO PASS; el pase ya es el billete base.</li>
-                <li>Si se descarta Nikkō, no hay nada que cancelar ni comprar.</li>
+                <li>Metro a la zona de Yushima para Kyū-Iwasaki-tei y paseo hacia Nezu.</li>
+                <li>Nezu → Sendagi → Yanaka a pie, con comida y café por el camino.</li>
+                <li>Traslado hacia Asakusa para llegar al Tori-no-Ichi sobre las 16:30; seguir los accesos habilitados al santuario Ōtori y al templo Chōkoku-ji.</li>
               </ul>
-              <a class="official-link" href="https://www.tobu.co.jp/en/ticket/nikko-pass/" target="_blank" rel="noopener">Qué incluye el NIKKO PASS ↗</a>
             </div>
           </div>
+          <p>Usar Suica/IC card para los trayectos urbanos. Confirmar la combinación local al salir; no se necesitan reservas de larga distancia para estos dos días.</p>
         </div>
       </details>
 
@@ -3129,7 +3134,7 @@
     <div class="tip-card">
       <div class="tc-icon">🍁</div>
       <h4>Reportes de foliage</h4>
-      <p>Consulta japan-guide.com la semana antes del viaje. Si Nikko ya pasó, no vayas. Si Kyoto explota, añade un día extra desde Osaka.</p>
+      <p>Consulta reportes recientes antes de elegir jardines. Ueno solo se reconsidera si muestra buen color; el 19 nov está dedicado a Nezu, Yanaka y Tori-no-Ichi. Si Kyoto está fuerte, aprovecha el comodín desde Osaka.</p>
     </div>
     <div class="tip-card">
       <div class="tc-icon">💴</div>
@@ -3172,34 +3177,56 @@
   // ── INTERACTIVE JOURNEY ATLAS ──
   const itineraryDays = [
     {
-      day: 1, date: '17 nov', region: 'Tokyo I', title: 'Llegada a Tokyo',
-      summary: 'Aterrizaje, primer tren japonés y llegada tranquila a Asakusa para empezar el viaje sin prisas.',
+      day: 1, date: '17 nov', region: 'Tokyo I', title: 'Kamukura y Sensō-ji de noche',
+      summary: 'Llegada a Asakusa, cena en Kamukura si llegáis antes del último pedido (21:45) y paseo por Sensō-ji iluminado hasta aproximadamente las 23:00.',
       transport: 'Asakusa Line directa', duration: 'Narita → Asakusa · ~1 h 20', icon: '✈️',
       stops: [
         { time: '19:00', name: 'Narita Airport', coords: [35.7720, 140.3929] },
-        { time: '20:30', name: 'Asakusa', coords: [35.7148, 139.7967] },
-        { time: '21:00', name: 'Hotel Tavinos', coords: [35.7180, 139.7923] }
-      ], legs: [{ from: 0, to: 1, mode: 'train' }, { from: 1, to: 2, mode: 'walk' }]
+        { time: 'Traslado', name: 'Asakusa', coords: [35.7118, 139.7984] },
+        { time: 'Llegada', name: 'Hotel Tavinos', coords: [35.7180, 139.7923] },
+        { time: 'Cena', name: 'Kamukura Asakusa ROX・3G · último pedido 21:45', coords: [35.7139, 139.7928] },
+        { time: 'Noche', name: 'Sensō-ji · luces hasta ~23:00', coords: [35.7148, 139.7967] }
+      ], legs: [
+        { from: 0, to: 1, mode: 'train' }, { from: 1, to: 2, mode: 'walk' },
+        { from: 2, to: 3, mode: 'walk' }, { from: 3, to: 4, mode: 'walk' }
+      ]
     },
     {
-      day: 2, date: '18 nov', region: 'Tokyo I', title: 'Jardines y ginkgos',
-      summary: 'Un primer día suave entre jardines clásicos, avenidas doradas y el centro de Tokyo al atardecer.',
-      transport: 'Metro + paseos', duration: 'Ritmo ligero · 3 zonas', icon: '🍂',
+      day: 2, date: '18 nov', region: 'Tokyo I', title: 'Kappabashi, Kiyosumi y luces',
+      summary: 'Kappabashi y Kuramae, jardín de Kiyosumi, billetes de Kiso y paseo nocturno Marunouchi–Ginza. Comida en ruta, sin volver al hotel.',
+      transport: 'Metro + paseos', duration: 'Paseo nocturno · ~3 km', icon: '🌃',
       stops: [
-        { time: '09:00', name: 'Rikugien', coords: [35.7321, 139.7465] },
-        { time: '13:00', name: 'Meiji Jingu Gaien', coords: [35.6753, 139.7205] },
-        { time: '17:00', name: 'Marunouchi', coords: [35.6812, 139.7671] }
-      ], legs: [{ from: 0, to: 1, mode: 'train' }, { from: 1, to: 2, mode: 'train' }]
+        { time: '10:00', name: 'Kappabashi', coords: [35.7140, 139.7889] },
+        { time: '11:30', name: 'Kuramae · paseo y comida', coords: [35.7049, 139.7914] },
+        { time: '14:00', name: 'Kiyosumi Gardens', coords: [35.6805, 139.7988] },
+        { time: '16:15', name: 'Tokyo Station · billetes en Yaesu', coords: [35.6808, 139.7691] },
+        { time: '17:15', name: 'Tokyo Station · plaza Marunouchi', coords: [35.6812, 139.7653] },
+        { time: '17:45', name: 'Marunouchi Naka-dōri', coords: [35.6788, 139.7633] },
+        { time: '18:30', name: 'Yūrakuchō', coords: [35.6749, 139.7630] },
+        { time: '19:00', name: 'Ginza 4-chōme · luces y cena', coords: [35.6717, 139.7650] }
+      ], legs: [
+        { from: 0, to: 1, mode: 'walk' }, { from: 1, to: 2, mode: 'train' },
+        { from: 2, to: 3, mode: 'train' }, { from: 3, to: 4, mode: 'walk' },
+        { from: 4, to: 5, mode: 'walk' }, { from: 5, to: 6, mode: 'walk' },
+        { from: 6, to: 7, mode: 'walk' }
+      ]
     },
     {
-      day: 3, date: '19 nov', region: 'Tokyo I', title: 'Nikko o Tokyo',
-      summary: 'Día comodín: escapada a Nikko si el otoño acompaña o una jornada completa explorando Tokyo.',
-      transport: 'Tobu Limited Express', duration: 'Plan A · ~2 h por trayecto', icon: '🍁',
+      day: 3, date: '19 nov', region: 'Tokyo I', title: 'Nezu, Yanaka y Tori-no-Ichi',
+      summary: 'Kyū-Iwasaki-tei, barrios tradicionales y festival de Asakusa al anochecer. Comida y café en ruta, sin pausa en el hotel.',
+      transport: 'Metro + paseos', duration: 'Barrios + festival · 16:30–19:00', icon: '🏮',
       stops: [
-        { time: '07:30', name: 'Tobu Asakusa', coords: [35.7118, 139.7984] },
-        { time: '09:30', name: 'Nikko', coords: [36.7480, 139.6195] },
-        { time: '10:00', name: 'Santuario Toshogu', coords: [36.7578, 139.5989] }
-      ], legs: [{ from: 0, to: 1, mode: 'train' }, { from: 1, to: 2, mode: 'bus' }]
+        { time: '09:00', name: 'Kyū-Iwasaki-tei', coords: [35.7090, 139.7672] },
+        { time: '11:00', name: 'Nezu-jinja', coords: [35.7202, 139.7608] },
+        { time: '12:00', name: 'Sendagi · paseo y comida', coords: [35.7255, 139.7632] },
+        { time: '13:30', name: 'Yanaka Ginza', coords: [35.7276, 139.7651] },
+        { time: 'Paseo', name: 'Yuyake Dandan', coords: [35.7278, 139.7665] },
+        { time: '16:30', name: 'Tori-no-Ichi · Ōtori-jinja y Chōkoku-ji', coords: [35.7228, 139.7917] }
+      ], legs: [
+        { from: 0, to: 1, mode: 'walk' }, { from: 1, to: 2, mode: 'walk' },
+        { from: 2, to: 3, mode: 'walk' }, { from: 3, to: 4, mode: 'walk' },
+        { from: 4, to: 5, mode: 'train' }
+      ]
     },
     {
       day: 4, date: '20 nov', region: 'Kiso', title: 'Tokyo → Kiso-Fukushima',
@@ -3590,10 +3617,10 @@
       preferCanvas: true
     }).setView([35.45, 138.1], 6);
     L.control.zoom({ position: 'topright' }).addTo(journeyMap);
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-      subdomains: 'abcd',
+    // Standard OSM tiles need no API key; keep attribution and browser caching.
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 19,
-      attribution: '&copy; OpenStreetMap &copy; CARTO'
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a>'
     }).addTo(journeyMap);
     journeyLayer = L.layerGroup().addTo(journeyMap);
     selectJourneyDay(0);
