@@ -3238,14 +3238,14 @@
   // ── INTERACTIVE JOURNEY ATLAS ──
   const itineraryDays = [
     {
-      day: 1, date: '17 nov', region: 'Tokyo I', title: 'Kamukura y Sensō-ji de noche',
+      day: 1, date: '17 nov', region: 'Tokyo I', title: 'Sensō-ji de noche · Kamukura si da tiempo',
       summary: 'Llegada a Asakusa, cena en Kamukura si llegáis antes del último pedido (21:45) y paseo por Sensō-ji iluminado hasta aproximadamente las 23:00.',
       transport: 'Asakusa Line directa', duration: 'Narita → Asakusa · ~1 h 20', icon: '✈️',
       stops: [
         { time: '19:00', name: 'Narita Airport', coords: [35.7720, 140.3929] },
         { time: 'Traslado', name: 'Asakusa', coords: [35.7118, 139.7984] },
         { time: 'Llegada', name: 'Hotel Tavinos', coords: [35.7180, 139.7923] },
-        { time: 'Cena', name: 'Kamukura Asakusa ROX・3G · último pedido 21:45', coords: [35.7139, 139.7928] },
+        { time: 'Cena opcional', name: 'Kamukura Asakusa ROX・3G · último pedido 21:45', coords: [35.7139, 139.7928] },
         { time: 'Noche', name: 'Sensō-ji · luces hasta ~23:00', coords: [35.7148, 139.7967] }
       ], legs: [
         { from: 0, to: 1, mode: 'train' }, { from: 1, to: 2, mode: 'walk' },
@@ -3292,25 +3292,26 @@
     },
     {
       day: 4, date: '20 nov', region: 'Kiso', title: 'Tokyo → Kiso-Fukushima',
-      summary: 'Cambio de escala: del pulso de Shinjuku al valle de Kiso. La maleta grande salió hacia Kyoto el 19.',
+      summary: 'Azusa y Shinano hasta Kiso-Fukushima; check-in en Mikawaya, paseo y cena en Torikagi si encaja el horario, o Shirasagi. La maleta grande salió hacia Kyoto el 19.',
       transport: 'Azusa + Shinano', duration: '2 trenes · ~3 h 30', icon: '🚆',
       stops: [
         { time: 'por reservar', name: 'Shinjuku Station', coords: [35.6903, 139.7005] },
         { time: 'transbordo', name: 'Shiojiri', coords: [36.1142, 137.9474] },
-        { time: 'llegada', name: 'Kiso-Fukushima', coords: [35.8423, 137.6925] }
-      ], legs: [{ from: 0, to: 1, mode: 'train' }, { from: 1, to: 2, mode: 'train' }]
+        { time: 'llegada', name: 'Kiso-Fukushima Station', coords: [35.8423, 137.6925] },
+        { time: 'Tarde', name: 'Mikawaya · check-in; Torikagi cerca si encaja la cena', coords: [35.85107, 137.69941] }
+      ], legs: [{ from: 0, to: 1, mode: 'train' }, { from: 1, to: 2, mode: 'train' }, { from: 2, to: 3, mode: 'walk' }]
     },
     {
       day: 5, date: '21 nov', region: 'Kiso', title: 'Magome → Tsumago',
-      summary: 'El día clave del viaje: pueblos de posta, ocho kilómetros de Nakasendo y regreso a Nakatsugawa.',
+      summary: 'Pueblos de posta y ocho kilómetros de Nakasendō con la mochila de dos noches durante toda la ruta; bus y tren de regreso a Nakatsugawa, directos al Onn.',
       transport: 'Tren + bus + sendero', duration: '8 km a pie · ~3 h', icon: '🥾',
       stops: [
         { time: '07:43', name: 'Kiso-Fukushima', coords: [35.8423, 137.6925] },
-        { time: '08:21', name: 'Nakatsugawa', coords: [35.5004, 137.5031] },
+        { time: '08:21', name: 'Nakatsugawa · directo al bus, sin consigna', coords: [35.5004, 137.5031] },
         { time: '09:35', name: 'Magome', coords: [35.5262, 137.5678] },
         { time: '13:15', name: 'Tsumago', coords: [35.5762, 137.5958] },
         { time: '15:48', name: 'Nagiso', coords: [35.5991, 137.6084] },
-        { time: '16:45', name: 'Nakatsugawa', coords: [35.5004, 137.5031] }
+        { time: '16:45', name: 'Nakatsugawa → Onn con la mochila', coords: [35.5004, 137.5031] }
       ], legs: [
         { from: 0, to: 1, mode: 'train' }, { from: 1, to: 2, mode: 'bus' },
         { from: 2, to: 3, mode: 'walk' }, { from: 3, to: 4, mode: 'bus' },
@@ -3334,12 +3335,12 @@
     {
       day: 7, date: '23 nov', region: 'Kyoto', title: 'Eikan-dō y Tō-ji',
       summary: 'Festivo: Eikan-dō temprano, Nanzen-ji y Shinnyodō de día; Tō-ji iluminado por la noche.',
-      transport: 'Metro + caminata', duration: 'Día completo · inicio 07:45', icon: '⛩️',
+      transport: 'Metro + caminata', duration: 'Inicio 07:00 EX / 07:45 normal', icon: '⛩️',
       stops: [
-        { time: '09:00', name: 'Eikan-dō', coords: [35.0124, 135.7944] },
+        { time: '08:00 EX / 09:00 normal', name: 'Eikan-dō', coords: [35.0124, 135.7944] },
         { time: '11:00', name: 'Nanzen-ji', coords: [35.0118, 135.7933] },
         { time: '13:45', name: 'Shinnyodō', coords: [35.0210, 135.7908] },
-        { time: '19:00', name: 'Tō-ji iluminado', coords: [34.9805, 135.7469] }
+        { time: '19:00 normal / 17:10 EX', name: 'Tō-ji iluminado', coords: [34.9805, 135.7469] }
       ], legs: [{ from: 0, to: 1, mode: 'walk' }, { from: 1, to: 2, mode: 'walk' }, { from: 2, to: 3, mode: 'train' }]
     },
     {
@@ -3477,13 +3478,13 @@
     },
     {
       day: 19, date: '5 dic', region: 'Regreso', title: 'Tokyo → Narita',
-      summary: 'Mañana y primera tarde en Tokyo; recoger equipaje y llegar a Narita hacia las 19:00 para el vuelo de las 22:00.',
+      summary: 'Mañana y primera tarde en Tokyo; recoger equipaje sobre las 16:00, salir del APA hacia las 16:30 y tomar un N’EX sobre las 17:15–17:40 para llegar a Narita hacia las 19:00.',
       transport: 'Narita Express', duration: 'Shinjuku → Narita · ~1 h 20', icon: '✈️',
       stops: [
-        { time: 'Mañana', name: 'Shinjuku', coords: [35.6903, 139.7005] },
-        { time: '~17:30', name: 'Shinjuku Station', coords: [35.6896, 139.7006] },
+        { time: '16:00–16:30', name: 'Recoger equipaje · zona APA Higashi-Shinjuku', coords: [35.6979, 139.7076] },
+        { time: '17:15–17:40', name: 'Shinjuku Station · N’EX', coords: [35.6896, 139.7006] },
         { time: '~19:00', name: 'Narita Airport', coords: [35.7720, 140.3929] }
-      ], legs: [{ from: 1, to: 2, mode: 'train' }]
+      ], legs: [{ from: 0, to: 1, mode: 'walk' }, { from: 1, to: 2, mode: 'train' }]
     }
   ];
 
